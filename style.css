@@ -1,5 +1,9 @@
 body {
-    background: white;
+    background-size: cover;
+    background-image: linear-gradient(rgb(148, 175, 244),blue);
+    background-repeat: no-repeat;
+    height: 100%;
+    overflow: hidden;
 }
 
 div {
@@ -7,12 +11,27 @@ div {
     text-align: center;
 }
 
+#Username{
+    width: fit-content;
+    margin: auto;
+    padding-top: 10%;
+    background: none;
+    padding-bottom: 1%;
+}
+
+#Password{
+    width: fit-content;
+    margin: auto;
+    padding-bottom: 8%;
+    background: none;
+}
+
 #sign-in-button {
     color: purple;
-    background: rgb(227, 63, 63);
+    background: rgb(255, 255, 255);
     outline: 2px solid black;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
+    display: flex;
     align-content: center;
 }
 
@@ -22,21 +41,26 @@ div {
     text-align: center;
     display: flex;
     align-items: center;
+    background: none;
+    
+    border-radius: 25px
 }
 
 #title {
-    text-align: center;
-    width: 70px;
-    margin-right: auto;
-    margin-left: auto;
-    padding-top: 24px;
-    padding-bottom: 50px;
+    background: none;
+    width:fit-content;
+    padding-top: 2%;
+    margin: auto;
+    height: fit-content;
+    font-size: xx-large;
 }
 
 #sign-goo{
     margin: auto;
+    width: fit-content;
 }
 
-.sign-in-text{
-
+body, html{
+    height: 100%;
 }
+
