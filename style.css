@@ -1,0 +1,42 @@
+body {
+    background: white;
+}
+
+div {
+    background: white;
+    text-align: center;
+}
+
+#sign-in-button {
+    color: purple;
+    background: rgb(227, 63, 63);
+    outline: 2px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+}
+
+#sign-google {
+    outline: 2px solid black;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+#title {
+    text-align: center;
+    width: 70px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 24px;
+    padding-bottom: 50px;
+}
+
+#sign-goo{
+    margin: auto;
+}
+
+.sign-in-text{
+
+}
