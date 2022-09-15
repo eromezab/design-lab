@@ -32,18 +32,16 @@ div {
     outline: 2px solid black;
     margin: auto;
     display: flex;
-    align-content: center;
+    border-radius: 25px;
 }
 
 #sign-google {
-    outline: 2px solid black;
     margin: auto;
     text-align: center;
     display: flex;
     align-items: center;
     background: none;
-    
-    border-radius: 25px
+    border-radius: 25px;
 }
 
 #title {
@@ -52,12 +50,17 @@ div {
     padding-top: 2%;
     margin: auto;
     height: fit-content;
-    font-size: xx-large;
+    font-size: 500%;
+    font-family: cursive;
+    font-weight: 300;
 }
 
 #sign-goo{
     margin: auto;
     width: fit-content;
+    border-radius: 25px;
+    outline: 2px solid black;
+    position: ; top: 1%
 }
 
 body, html{
