@@ -28,7 +28,7 @@ div {
 
 #sign-in-button {
     color: purple;
-    background: rgb(255, 255, 255);
+    background: white(255, 255, 255);
     outline: 2px solid black;
     margin: auto;
     display: flex;
@@ -42,6 +42,7 @@ div {
     align-items: center;
     background: none;
     border-radius: 25px;
+    position: relative ;
 }
 
 #title {
@@ -60,7 +61,8 @@ div {
     width: fit-content;
     border-radius: 25px;
     outline: 2px solid black;
-    position: ; top: 1%
+    position: relative;
+    top: 5%;
 }
 
 body, html{
