@@ -7,7 +7,7 @@ body {
 }
 
 div {
-    background: white;
+    background: rgb(245, 245, 245);
     text-align: center;
 }
 
@@ -24,6 +24,12 @@ div {
     margin: auto;
     padding-bottom: 8%;
     background: none;
+}
+
+input, textarea{
+    background-color: #d1d1d1;
+    border-radius: 25px;
+    width: 2;
 }
 
 #sign-in-button {
@@ -62,7 +68,12 @@ div {
     border-radius: 25px;
     outline: 2px solid black;
     position: relative;
-    top: 5%;
+    top: 3%;
+}
+
+#google{
+    position: relative;
+    top: 2px;
 }
 
 body, html{
